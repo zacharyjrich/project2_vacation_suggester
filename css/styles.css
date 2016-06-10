@@ -1,0 +1,13 @@
+body {
+  background-color: #0080ff;
+  color: white;
+}
+
+.intro h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#survey {
+  display: none;
+}
