@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#ready_button").click(function() {
-    $("#survey").show();
+    $(".survey").show();
     $(".intro").hide();
   });
 
