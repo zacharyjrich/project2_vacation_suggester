@@ -5,20 +5,29 @@ $(document).ready(function() {
   });
 
   $("form").submit(function(event) {
-    event.preventDefault();
     var company = $("input:radio[name=company]:checked").val();
     var music = $("input:radio[name=music]:checked").val();
     var pizza = $("input:radio[name=pizza]:checked").val();
     var movie = $("input:radio[name=movie]:checked").val();
     var silly = $("input:radio[name=silly]:checked").val();
 
-    if (company === "alone" && music === "beatles" && pizza === "utensils" && movie === "shawshank" && silly === "numbers") {
-      $("#answer1").show();
+    if (company === "1" && music === "1" && pizza === "1" && movie === "1" && silly === "1") {
+      $("#answer1").fadeIn("slow");
+      $("#survey").hide();
+    } else if (company === "2" && music === "2" && pizza === "2" && movie === "2" && silly === "2") {
+      $("#answer2").fadeIn("slow");
+      $("#survey").hide();
+    } else if (company === "2" && music === "1" && pizza === "2" && movie === "1" && silly === "2") {
+      $("#answer3").fadeIn("slow");
+      $("#survey").hide();
+    } else if (company === "1" && music === "2" && pizza === "1" && movie === "2" && silly === "1") {
+      $("#answer4").fadeIn("slow");
       $("#survey").hide();
     } else {
-      $("#answer2").show();
+      $("#answer5").fadeIn("slow");
       $("#survey").hide();
     }
+    event.preventDefault();
 
   });
 

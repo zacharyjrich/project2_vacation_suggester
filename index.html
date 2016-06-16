@@ -22,12 +22,12 @@
           <h3>Will you vacation alone or with company?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="company" value="alone">Alone...
+              <input type="radio" name="company" value="1">Alone...
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="company" value="peeps">With peeps!
+              <input type="radio" name="company" value="2">With peeps!
             </label>
           </div>
         </div>
@@ -36,12 +36,12 @@
           <h3>Do you prefer the Beatles or Beyonce?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="music" value="beatles">Love me do!
+              <input type="radio" name="music" value="1">Love me do!
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="music" value="beyonce">Put a ring on it!
+              <input type="radio" name="music" value="2">Put a ring on it!
             </label>
           </div>
         </div>
@@ -50,12 +50,12 @@
           <h3>Do you eat pizza with utensils or with your hands?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="pizza" value="utensils">Utensils, I'm civilized
+              <input type="radio" name="pizza" value="1">Utensils, I'm civilized
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="pizza" value="hands">My hands, is there any other way?
+              <input type="radio" name="pizza" value="2">My hands, is there any other way?
             </label>
           </div>
         </div>
@@ -64,12 +64,12 @@
           <h3>Would you rather watch Shawshank Redemption or Pulp Fiction?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="movie" value="shawshank">"Get busy living, or get busy dying"
+              <input type="radio" name="movie" value="1">"Get busy living, or get busy dying"
             </label>
           </div>
           <div class="radio">
             <label class="radio">
-              <input type="radio" name="movie" value="pulp">"MMMMMM...That is a tasty burger!"
+              <input type="radio" name="movie" value="2">"MMMMMM...That is a tasty burger!"
             </label>
           </div>
         </div>
@@ -78,32 +78,43 @@
           <h3>How many fingers am I holding up?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="silly" value="numbers">Between one and ten
+              <input type="radio" name="silly" value="1">Between one and ten
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="silly" value="no_answer">Will not answer that ridiculous question
+              <input type="radio" name="silly" value="2">Will not answer that ridiculous question
             </label>
           </div>
         </div>
 
         <div id="result_button">
-          <button type="submit" class="btn btn-default btn-lg">Ready for my vacation suggestion</button>
+          <button type="submit" class="btn btn-default btn-lg">Let's do this!</button>
         </div>
 
       </form>
 
-        <div id="answer1">
-          <h1>Maybe you should stay home and watch Netflix, having fun just isn't your thing...</h1>
-        </div>
-        <div id="answer2">
-          <h1>You should go to Hawaii, relax on the beach and enjoy the sun!</h1>
-        </div>
-        <div id="answer3">
-          <h1>How about backpacking through Europe, you like adventure!</h1>
-        </div>
-
+      <div id="answer1">
+        <h1>You should go to Hawaii, relax on the beach and enjoy the sun!</h1>
+        <img src="img/hawaii.jpg" class="img-rounded" height="500px" width="auto" alt="hawaii">
       </div>
+      <div id="answer2">
+        <h1>How about backpacking through Europe, you like adventure!</h1>
+        <img src="img/backpacking.jpg" class="img-rounded" height="500px" width="auto" alt="girl backpacking in sunset">
+      </div>
+      <div id="answer3">
+        <h1>Ooooohhh, Italy seems to suit your personality!</h1>
+        <img src="img/italy.jpg" class="img-rounded" height="500px" width="auto" alt="Italy at sunset">
+      </div>
+      <div id="answer4">
+        <h1>Brazil may be just the getaway you need!</h1>
+        <img src="img/brazil.jpg" class="img-rounded" height="500px" width="auto" alt="Brazil">
+      </div>
+      <div id="answer5">
+        <h1>Maybe you should stay home and watch Netflix, having fun just isn't your thing...</h1>
+        <img src="img/netflix.jpg" class="img-rounded" height="400px" width="auto" alt="girl watching netflix">
+      </div>
+
+    </div>
   </body>
 </html>

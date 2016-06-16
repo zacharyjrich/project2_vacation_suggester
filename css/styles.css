@@ -4,14 +4,21 @@ body {
 }
 
 .intro h1 {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 
 #survey {
-  padding-top: 80px;
+  padding-top: 100px;
+  display: none;
 }
 
-#survey,#answer1, #answer2, #answer3 {
+#answer1, #answer2, #answer3, #answer4, #answer5 {
+  text-align: center;
+  padding-top: 100px;
   display: none;
+}
+
+.btn {
+  margin-top: 20px;
 }
