@@ -5,22 +5,23 @@ $(document).ready(function() {
   });
 
   $("form").submit(function(event) {
-    var company = $("input:radio[name=company]:checked").val();
-    var music = $("input:radio[name=music]:checked").val();
-    var pizza = $("input:radio[name=pizza]:checked").val();
-    var movie = $("input:radio[name=movie]:checked").val();
-    var silly = $("input:radio[name=silly]:checked").val();
+    var company = parseInt($("input:radio[name=company]:checked").val());
+    var music = parseInt($("input:radio[name=music]:checked").val());
+    var pizza = parseInt($("input:radio[name=pizza]:checked").val());
+    var movie = parseInt($("input:radio[name=movie]:checked").val());
+    var silly = parseInt($("input:radio[name=silly]:checked").val());
+    var output = company + music + pizza + movie + silly;
 
-    if (company === "1" && music === "1" && pizza === "1" && movie === "1" && silly === "1") {
+    if (output === 5) {
       $("#answer1").fadeIn("slow");
       $("#survey").hide();
-    } else if (company === "2" && music === "2" && pizza === "2" && movie === "2" && silly === "2") {
+    } else if (output > 5 && output <= 6) {
       $("#answer2").fadeIn("slow");
       $("#survey").hide();
-    } else if (company === "2" && music === "1" && pizza === "2" && movie === "1" && silly === "2") {
+    } else if (output > 6 && output <=8) {
       $("#answer3").fadeIn("slow");
       $("#survey").hide();
-    } else if (company === "1" && music === "2" && pizza === "1" && movie === "2" && silly === "1") {
+    } else if (output > 8 && output <= 10) {
       $("#answer4").fadeIn("slow");
       $("#survey").hide();
     } else {
@@ -30,5 +31,5 @@ $(document).ready(function() {
     event.preventDefault();
 
   });
-
+  
 });
