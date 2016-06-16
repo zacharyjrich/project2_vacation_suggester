@@ -1,5 +1,5 @@
 body {
-  background-color: #66a3ff;
+  background-color: #00cc99;
   color: white;
 }
 
@@ -13,8 +13,12 @@ body {
   padding-bottom: 20px;
 }
 
+#survey h3 {
+  padding-bottom: 10px;
+}
+
 #survey {
-  padding-top: 100px;
+  padding-top: 70px;
   display: none;
 }
 
@@ -25,7 +29,7 @@ body {
 }
 
 .btn {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 img {
