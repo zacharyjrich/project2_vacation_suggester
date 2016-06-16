@@ -1,9 +1,6 @@
 body {
-  background-color: ;
-}
-
-.btn {
-
+  background-color: #66a3ff;
+  color: white;
 }
 
 .intro h1 {
@@ -11,10 +8,10 @@ body {
   padding-bottom: 20px;
 }
 
-.radio {
-  margin-top: 10px;
+#survey {
+  padding-top: 80px;
 }
 
-.survey {
+#survey,#answer1, #answer2, #answer3 {
   display: none;
 }

@@ -9,66 +9,101 @@
   </head>
   <body>
     <div class="container">
-      <div class="intro">
-        <h1>How-a-bout a vacation suggestion?</h1>
+      <h4 class="pull-right">Vacation Suggester, new wave!</h4>
+      <div class="intro text-center">
+        <h1>How-a-bout a questionaire for a vacation suggestion?</h1>
         <div id="ready_button">
-          <button type="button" value="submit" class="btn btn-default btn-lg">Sure, why not?</button>
+          <button type="submit" class="btn btn-default btn-lg">Sure, why not?</button>
         </div>
       </div>
 
-      <form class="survey">
-        <h1>Vacation Suggester, new wave!</h1>
-        <div class="form-group">
+      <form id="survey">
+        <div class="question1">
           <h3>Will you vacation alone or with company?</h3>
-          <label class="radio">
-            <input type="radio" name="company" value="1" id="company">Alone...
-          </label>
-          <label class="radio">
-            <input type="radio" name="company" value="2" id="company">With peeps!
-          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="alone">Alone...
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="peeps">With peeps!
+            </label>
+          </div>
         </div>
 
-        <div class="form-group">
+        <div class="question2">
           <h3>Do you prefer the Beatles or Beyonce?</h3>
-          <label class="radio">
-            <input type="radio" name="music" value="1" id="music">Love me do!
-          </label>
-          <label class="radio">
-            <input type="radio" name="music" value="2" id="music">Put a ring on it!
-          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="beatles">Love me do!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="beyonce">Put a ring on it!
+            </label>
+          </div>
         </div>
 
-        <div class="form-group">
+        <div class="question3">
           <h3>Do you eat pizza with utensils or with your hands?</h3>
-          <label class="radio">
-            <input type="radio" name="pizza" value="1" id="pizza">Utensils, I'm civilized
-          </label>
-          <label class="radio">
-            <input type="radio" name="pizza" value="2" id="pizza">My hands, is there any other way?
-          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pizza" value="utensils">Utensils, I'm civilized
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pizza" value="hands">My hands, is there any other way?
+            </label>
+          </div>
         </div>
 
-        <div class="form-group">
+        <div class="question4">
           <h3>Would you rather watch Shawshank Redemption or Pulp Fiction?</h3>
-          <label class="radio">
-            <input type="radio" name="movie" value="1" id="movie">"Get busy living, or get busy dying"
-          </label>
-          <label class="radio">
-            <input type="radio" name="movie" value="2" id="movie">"MMMMMM...That is a tasty burger!"
-          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="shawshank">"Get busy living, or get busy dying"
+            </label>
+          </div>
+          <div class="radio">
+            <label class="radio">
+              <input type="radio" name="movie" value="pulp">"MMMMMM...That is a tasty burger!"
+            </label>
+          </div>
         </div>
 
-        <div class="form-group">
+        <div class="question5">
           <h3>How many fingers am I holding up?</h3>
-          <label class="radio">
-            <input type="radio" name="silly" value="1" id="silly">Between one and ten
-          </label>
-          <label class="radio">
-            <input type="radio" name="silly" value="2" id="silly">Will not answer that ridiculous question
-          </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="silly" value="numbers">Between one and ten
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="silly" value="no_answer">Will not answer that ridiculous question
+            </label>
+          </div>
         </div>
+
+        <div id="result_button">
+          <button type="submit" class="btn btn-default btn-lg">Ready for my vacation suggestion</button>
+        </div>
+
       </form>
 
-    </div>
+        <div id="answer1">
+          <h1>Maybe you should stay home and watch Netflix, having fun just isn't your thing...</h1>
+        </div>
+        <div id="answer2">
+          <h1>You should go to Hawaii, relax on the beach and enjoy the sun!</h1>
+        </div>
+        <div id="answer3">
+          <h1>How about backpacking through Europe, you like adventure!</h1>
+        </div>
+
+      </div>
   </body>
 </html>
