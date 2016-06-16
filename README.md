@@ -10,7 +10,7 @@ This page is a basic survey for suggesting a vacation destination.
 
 ## Setup/Installation Requirements
 
-* Clone this repository
+Clone this repository
 
 ## Known Bugs
 
@@ -18,7 +18,9 @@ No known bugs to this point.
 
 ## Support and contact details
 
-<!-- http://zacharyjrich.github.io/ZachRichards-Portfolio -->
+http://zacharyjrich.github.io/project2_vacation_suggester
+
+https://github.com/zacharyjrich/project2_vacation_suggester
 
 ## Technologies Used
 
