@@ -13,19 +13,19 @@ $(document).ready(function() {
     var output = company + music + pizza + movie + silly;
 
     if (output === 5) {
-      $("#answer1").fadeIn("slow");
+      $("#hawaii").fadeIn("slow");
       $("#survey").hide();
     } else if (output > 5 && output <= 6) {
-      $("#answer2").fadeIn("slow");
+      $("#italy").fadeIn("slow");
       $("#survey").hide();
     } else if (output > 6 && output <=8) {
-      $("#answer3").fadeIn("slow");
+      $("#brazil").fadeIn("slow");
       $("#survey").hide();
     } else if (output > 8 && output <= 10) {
-      $("#answer4").fadeIn("slow");
+      $("#europe_backpack").fadeIn("slow");
       $("#survey").hide();
     } else {
-      $("#answer5").fadeIn("slow");
+      $("#netflix").fadeIn("slow");
       $("#survey").hide();
     }
     event.preventDefault();
